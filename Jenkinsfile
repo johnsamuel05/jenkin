@@ -24,5 +24,7 @@ pipeline {
                 // Run the Java application to verify it works
                 sh 'java sample'
             }
-        }
+        }
+    }
 }
+
