@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the repository containing the Java code
-                git 'https://github.com/Nandhini0307/jenkin.git'
+                git 'https://github.com/johnsamuel05/jenkin.git'
             }
         }
         stage('Build') {
