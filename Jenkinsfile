@@ -12,7 +12,7 @@ pipeline {
             steps {
                 // Compile the Java code
                 script {
-                    def javaHome = tool name: 'JDK', type: 'JDK'
+                    def javaHome = tool name: 'JDK9', type: 'JDK'
                     env.JAVA_HOME = "${javaHome}"
                     env.PATH = "${javaHome}/bin:${env.PATH}"
                 }
