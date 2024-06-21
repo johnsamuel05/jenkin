@@ -25,5 +25,4 @@ pipeline {
                 sh 'java sample'
             }
         }
-    }
 }
